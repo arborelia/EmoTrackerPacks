@@ -3,6 +3,7 @@
 This is a pack for EmoTracker, allowing you to track your items and see
 available locations in the randomizer mode of Super Win the Game.
 
+![https://raw.githubusercontent.com/arborelia/EmoTrackerPacks/main/supergame_arborelia/screenshot.png]
 
 # How to use the tracker
 
@@ -48,9 +49,11 @@ These non-gem items, which can be the items you track or just literally keys, ar
 
 When you enter a dungeon, check the map to see the number of gems. Subtract that from the total number of items, which appears in parentheses under the dungeon name in the "Key Items Remaining" section, to get the number of key items. Right-click the bubbled ? icon that number of times to track it.
 
-When you collect a non-gem, left-click the bubbled ? to decrease the number of Key Items Remaining. When it reaches 0, you can right-click the big square representing the entire dungeon, indicating that you will never need anything else from the dungeon.
+When you collect a non-gem, left-click the bubbled ? to decrease the number of Key Items Remaining. When it reaches 0, you can right-click the big square on the overworld map representing the entire dungeon, indicating that you will never need anything else from the dungeon.
 
 You can also apply this kind of logic to locations that aren't dungeons, by counting the number of item locations in them. Note that towns may contain 1 or 2 additional gems that aren't in item locations, because they are sold by the jeweler. You can use this information to deduce whether the expensive "?????" item is a gem.
+
+I recommend using the "Always Allow Chest Manipulation" setting in EmoTracker, because you'll often be able to deduce that a "red" item that you can't reach or see is just a gem, and check it off.
 
 
 # Logic status
