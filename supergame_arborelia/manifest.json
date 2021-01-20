@@ -1,0 +1,13 @@
+﻿{
+  "name": "Super Win the Game Randomizer Tracker",
+  "game_name": "Super Win the Game Randomizer",
+  "platform": "pc",
+  "package_version": "1.0",
+  "package_uid": "supergame_arborelia",
+  "author": "arborelia",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"
+    }
+  }
+}

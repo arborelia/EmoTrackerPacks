@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Bombs",
+    "type": "toggle",
+    "img": "images/bomb.png",
+    "codes": "bombs,bomb"
+  },
+  {
+    "name": "Key",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "key"
+  },
+  {
+    "name": "Hammer",
+    "type": "toggle",
+    "img": "images/hammer.png",
+    "codes": "hammer"
+  },
+  {
+    "name": "Ladder",
+    "type": "toggle",
+    "img": "images/ladder.png",
+    "codes": "ladder"
+  },
+  {
+    "name": "Scuba Gear",
+    "type": "toggle",
+    "img": "images/scuba.png",
+    "codes": "scuba"
+  },
+  {
+    "name": "Spring Shoes",
+    "type": "toggle",
+    "img": "images/spring_shoes.png",
+    "codes": "spring_shoes"
+  },
+  {
+    "name": "Candle",
+    "type": "toggle",
+    "img": "images/candle.png",
+    "codes": "candle"
+  },
+  {
+    "name": "Glasses",
+    "type": "toggle",
+    "img": "images/glasses.png",
+    "codes": "glasses,reveal"
+  },
+  {
+    "name": "Transceiver",
+    "type": "toggle",
+    "img": "images/transceiver.png",
+    "codes": "transceiver,reveal"
+  }
+]

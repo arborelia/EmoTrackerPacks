@@ -1,0 +1,22 @@
+Subterranea: 21 items
+Lakewood Dungeon: 18 items
+Sky Pillars: 10 items
+Glacial Palace: 11 items
+Desert Ruins: 14 items
+  5 in entrance
+  9 inside
+House of Baffle: 4 items
+  1 requires double jump
+  1 requires double jump + climb
+  
+
+
+Fishing Village: 2 items (+ 1 in subterranea)
+Arcadian's Tower: 3 items
+Desert Sprawl: 4 items
+  2 (on islands) require swimming
+  1 requires blue
+Revolver Crossing: 2 items
+  1 requires climbing or double jump
+  1 requires red or double jump
+

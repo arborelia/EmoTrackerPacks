@@ -1,0 +1,53 @@
+{
+    "shared_item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            ["bomb", "key", "hammer"],
+            ["ladder", "scuba", "spring_shoes"],
+            ["candle", "glasses", "transceiver"]
+        ]
+    },
+    "tracker_broadcast": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "map"
+                }
+            ]
+        }
+    }
+}

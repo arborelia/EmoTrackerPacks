@@ -1,0 +1,1569 @@
+[
+  // maps to refer to:
+  // https://gamefaqs.gamespot.com/nes/563420-the-goonies-ii/faqs
+  {
+    "name": "House",
+    "children": [
+      {
+        "name": "First room",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 130,
+            "y": 230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "First room Goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 160,
+            "y": 230,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Attic ladder room",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 230,
+            "y": 230
+          },
+          {
+            "map": "front",
+            "x": 230,
+            "y": 170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          },
+          {
+            "name": "safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          },
+          {
+            "name": "Dark floor",
+            "item_count": 1,
+            "access_rules": [
+              "ladder"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Attic ladder goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 260,
+            "y": 170,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "ladder,key",
+              "{ladder}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Basement old woman",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 30,
+            "y": 330
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Basement old woman is a Goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 60,
+            "y": 330,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Basement tunnel",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 250,
+            "y": 330
+          },
+          {
+            "map": "back",
+            "x": 250,
+            "y": 330
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Endgame basement",
+    "access_rules": [
+      "ladder"
+    ],
+    "children": [
+      {
+        "name": "Final connector goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 425,
+            "y": 425,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Endgame basement goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 425,
+            "y": 475,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          },
+          {
+            "name": "Goonie under ladder?",
+            "item_count": 1,
+            "access_rules": [
+              "key,ladder,hammer",
+              "{ladder,hammer}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Attic",
+    "access_rules": [
+      "ladder"
+    ],
+    "children": [
+      {
+        "name": "Attic left goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 30,
+            "y": 30,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          },
+          {
+            "name": "Old woman up ladder is a goonie",
+            "item_count": 1,
+            "access_rules": [
+              "key,ladder",
+              "{ladder}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Attic right",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 370,
+            "y": 170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe?",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Orange Cave + House",
+    "children": [
+      {
+        "name": "Orange house room",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 350,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch wall",
+            "item_count": 1,
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Orange house goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 380,
+            "y": 130,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key,hammer",
+              "{hammer}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warp 4 orange house side",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 20,
+            "y": 260,
+            "size": 30
+          },
+          {
+            "map": "front",
+            "x": 1480,
+            "y": 770,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warp 4 volcano side",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 20,
+            "y": 230,
+            "size": 30
+          },
+          {
+            "map": "front",
+            "x": 1480,
+            "y": 740,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "ladder,key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Orange-gray cave",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 350,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hit wall",
+            "item_count": 1
+          },
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Orange-gray cave goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 380,
+            "y": 430,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Orange Brick House",
+    "access_rules": [
+      "ladder"
+    ],
+    "children": [
+      {
+        "name": "Hidden ladder room",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 450,
+            "y": 270
+          }
+        ],
+        "sections": [
+          {
+            "name": "Find the ladder and go down",
+            "item_count": 1,
+            "access_rules": [
+              "reveal,ladder"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Goonie before Hidden ladder",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 450,
+            "y": 240,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Red Cave",
+    "children": [
+      {
+        "name": "Old woman needs glasses",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 30,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "She gives you an item",
+            "item_count": 1,
+            "access_rules": [
+              "reveal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Violence Room",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 350,
+            "y": 550
+          },
+          {
+            "map": "back",
+            "x": 350,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch the door",
+            "item_count": 1
+          },
+          {
+            "name": "Punch the lady :(",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Red cave waterfall secret",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 470,
+            "y": 550,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Red to smaller ice connector",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 650,
+            "y": 650,
+            "size": 30
+          },
+          {
+            "map": "back",
+            "x": 650,
+            "y": 650,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Orange Cave",
+    "children": [
+      {
+        "name": "Orange cave Konamiman complex",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 130,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch wall in dark",
+            "item_count": 1
+          },
+          {
+            "name": "Floor",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cyndi Lauper Bridge",
+    "children": [
+      {
+        "name": "Bridge bombable room",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 730,
+            "y": 450
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1,
+            "access_rules": [
+              "bomb"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Purple cave",
+    "children": [
+      {
+        "name": "Purple cave dark room",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1250,
+            "y": 650
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          },
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Purple cave old woman",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1470,
+            "y": 670,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Purple cave Konamiman",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1450,
+            "y": 630,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warp 6",
+        "access_rules": [
+          "reveal,hammer,ladder", // check the reveal requirement
+          "reveal,spring_shoes"
+        ],
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1450,
+            "y": 430
+          },
+          {
+            "map": "back",
+            "x": 1150,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch wall",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Warp 6 Goonie",
+        "access_rules": [
+          "reveal,hammer,ladder", // check the reveal requirement
+          "reveal,spring_shoes"
+        ],
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1480,
+            "y": 430,
+            "size": 30
+          },
+          {
+            "map": "back",
+            "x": 1180,
+            "y": 130,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Green cave",
+    "access_rules": [
+      "hammer"
+    ],
+    "children": [
+      {
+        "name": "Green cave bottom left",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1030,
+            "y": 770
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green cave bottom right",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1250,
+            "y": 770
+          }
+        ],
+        "sections": [
+          // I don't think this exists
+          // {
+          //   "name": "Punch door",
+          //   "item_count": 1
+          // },
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green cave bottom right goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1280,
+            "y": 770,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green cave under",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1130,
+            "y": 670
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          },
+          {
+            "name": "Hidden safe",
+            "item_count": 1,
+            "access_rules": [
+              "hammer,reveal,key",
+              "{hammer,reveal}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green cave middle",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1230,
+            "y": 570
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Green cave infinite hallway",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1160,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch wall",
+            "item_count": 1,
+            "access_rules": [
+              "hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green cave infinite hallway goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1130,
+            "y": 430,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green cave top left",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 830,
+            "y": 450
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe",
+            "item_count": 2,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green cave top left goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 860,
+            "y": 450,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "reveal,key",
+              "{reveal}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ice Cave",
+    "children": [
+      {
+        "name": "Inuit warp",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 280,
+            "y": 740
+          },
+          {
+            "map": "back",
+            "x": 30,
+            "y": 730
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          },
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key,hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inuit warp goonie?",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 250,
+            "y": 740,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Water 1up",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 70,
+            "y": 780,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Smaller ice cave",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 530,
+            "y": 650
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Smaller ice cave goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 560,
+            "y": 650,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key,hammer",
+              "{hammer}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark Water Cave",
+    "access_rules": [
+      "scuba"
+    ],
+    "children": [
+      {
+        "name": "Dark Water lower left",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 30,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch wall",
+            "item_count": 1
+          },
+          {
+            "name": "Punch another wall",
+            "item_count": 1
+          },
+        ]
+      },
+      {
+        "name": "Dark water lower left goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 60,
+            "y": 830,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key,hammer,ladder",
+              "{hammer,ladder}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Water connector",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 340,
+            "y": 750
+          },
+          {
+            "map": "front",
+            "x": 330,
+            "y": 750
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch wall",
+            "item_count": 1,
+          }
+        ]
+      },
+      {
+        "name": "Water connector goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 370,
+            "y": 750,
+            "size": 30
+          },
+          {
+            "map": "front",
+            "x": 360,
+            "y": 750,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark Water Cave 2",
+    "access_rules": [
+      "scuba,hammer,ladder"
+    ],
+    "children": [
+      {
+        "name": "Isolated dark water goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 550,
+            "y": 750,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Light Water Cave",
+    "access_rules": [
+      "scuba"
+    ],
+    "children": [
+      {
+        "name": "Light water lower left",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 230,
+            "y": 850
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Light water lower left goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 260,
+            "y": 850,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Light water distant room",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 770,
+            "y": 770
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Annie's Cell",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 750,
+            "y": 930,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "scuba,hammer,key",
+              "{scuba,hammer}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Volcano",
+    "access_rules": [
+      "hammer,ladder",
+      "spring_shoes"
+    ],
+    "children": [
+      {
+        "name": "Mid-volcano room",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1350,
+            "y": 1030,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key,hammer,ladder",
+              "{hammer,ladder}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lava secret Konamiman",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1450,
+            "y": 1050,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warp 5 Goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1275,
+            "y": 950,
+            "size": 30
+          },
+          {
+            "map": "back",
+            "x": 925,
+            "y": 150,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark Cabin",
+    "access_rules": [
+      "hammer,ladder",
+      "spring_shoes"
+    ],
+    "children": [
+      {
+        "name": "Cabin to red-gray connector",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1250,
+            "y": 250
+          },
+          {
+            "map": "back",
+            "x": 1250,
+            "y": 250
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floor",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Red-gray brick below right",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1380,
+            "y": 330
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "hammer,key"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warp 7 goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1250,
+            "y": 130,
+            "size": 30
+          },
+          {
+            "map": "back",
+            "x": 650,
+            "y": 830,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie? top",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          },
+          {
+            "name": "Goonie? bottom",
+            "item_count": 1,
+            "access_rules": [
+              "key,ladder,hammer",
+              "{ladder,hammer}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark cabin top left",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1220,
+            "y": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Safe",
+            "item_count": 1,
+            "access_rules": [
+              "ladder,hammer,reveal,key"
+            ]
+          },
+        ]
+      },
+      {
+        "name": "Dark cabin top left goonie",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1250,
+            "y": 30,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark cabin 1up",
+        "map_locations": [
+          {
+            "map": "front",
+            "x": 1280,
+            "y": 50,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "bomb,key",
+              "{bomb}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gold Cave",
+    "access_rules": [
+      "hammer,ladder",
+      "spring_shoes"
+    ],
+    "children": [
+      {
+        "name": "Gold cave left",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 930,
+            "y": 370
+          }
+        ],
+        "sections": [
+          {
+            "name": "Punch wall", // why didn't this give an item
+            "item_count": 1,
+            "access_rules": [
+              "ladder,hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gold cave left goonie",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 960,
+            "y": 370,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gold cave top right goonie", // check this
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1420,
+            "y": 330,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gold cave Konamiman",
+        "map_locations": [
+          {
+            "map": "back",
+            "x": 1420,
+            "y": 360,
+            "size": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goonie?",
+            "item_count": 1,
+            "access_rules": [
+              "key",
+              "{}"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

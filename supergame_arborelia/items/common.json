@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Red Aura",
+    "type": "toggle",
+    "img": "images/red-aura.png",
+    "codes": "red"
+  },
+  {
+    "name": "Blue Aura",
+    "type": "toggle",
+    "img": "images/blue-aura.png",
+    "codes": "blue"
+  },
+  {
+    "name": "Springheel Boots",
+    "type": "toggle",
+    "img": "images/boots.png",
+    "codes": "boots"
+  },
+  {
+    "name": "Spider Gloves",
+    "type": "toggle",
+    "img": "images/gloves.png",
+    "codes": "gloves"
+  },
+  {
+    "name": "Magic Snorkel",
+    "type": "toggle",
+    "img": "images/snorkel.png",
+    "codes": "snorkel,scuba"
+  },
+  {
+    "name": "Steelskin Catalyst",
+    "type": "toggle",
+    "img": "images/steelskin.png",
+    "codes": "steelskin"
+  },
+  {
+    "name": "Underworld Ticket",
+    "type": "toggle",
+    "img": "images/ticket.png",
+    "codes": "ticket"
+  },
+  {
+    "name": "Skeleton Key",
+    "type": "toggle",
+    "img": "images/anykey.png",
+    "codes": "anykey"
+  },
+  {
+    "name": "Tesla Badge",
+    "type": "toggle",
+    "img": "images/badge.png",
+    "codes": "badge,tesla"
+  },
+  {
+    "name": "Arcadian Mask",
+    "type": "toggle",
+    "img": "images/mask.png",
+    "codes": "mask"
+  },
+  {
+    "name": "Arcadian Seal",
+    "type": "toggle",
+    "img": "images/seal.png",
+    "codes": "seal"
+  },
+  {
+    "name": "Heart pieces",
+    "type": "consumable",
+    "img": "images/heart.png",
+    "codes": "heart",
+    "max_quantity": 6
+  },
+  {
+    "name": "Lakewood Dungeon key items",
+    "type": "consumable",
+    "img": "images/count-lakewood.png",
+    "codes": "lakewood",
+    "max_quantity": 18,
+    "swap_actions": true
+  },
+  {
+    "name": "Desert Ruins key items",
+    "type": "consumable",
+    "img": "images/count-desert.png",
+    "codes": "desert,ruins",
+    "max_quantity": 14,
+    "swap_actions": true
+  },
+  {
+    "name": "Sky Pillars key items",
+    "type": "consumable",
+    "img": "images/count-sky.png",
+    "codes": "sky,pillars",
+    "max_quantity": 10,
+    "swap_actions": true
+  },
+  {
+    "name": "Glacial Palace key items",
+    "type": "consumable",
+    "img": "images/count-ice.png",
+    "codes": "ice,palace,glacial",
+    "max_quantity": 11,
+    "swap_actions": true
+  },
+  {
+    "name": "Subterranean Waterways key items",
+    "type": "consumable",
+    "img": "images/count-subterranea.png",
+    "codes": "subterranea,subterranean,waterways",
+    "max_quantity": 21,
+    "swap_actions": true
+  },
+  {
+    "name": "House of Baffle key iems",
+    "type": "consumable",
+    "img": "images/count-baffle.png",
+    "codes": "baffle",
+    "max_quantity": 5,
+    "swap_actions": true
+  }
+]
