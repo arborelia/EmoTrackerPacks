@@ -3,7 +3,7 @@
 This is a pack for EmoTracker, allowing you to track your items and see
 available locations in the randomizer mode of Super Win the Game.
 
-![https://raw.githubusercontent.com/arborelia/EmoTrackerPacks/main/supergame_arborelia/screenshot.png]
+![Screenshot](https://raw.githubusercontent.com/arborelia/EmoTrackerPacks/main/supergame_arborelia/screenshot.png)
 
 # How to use the tracker
 
